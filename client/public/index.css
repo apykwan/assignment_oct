@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(assets/fonts/icons.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'MyFont2';
+    src: local('MyFont2'), url(assets/fonts/icons.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'MyFont3';
+    src: local('MyFont3'), url(assets/fonts/icons.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'MyFont4';
+    src: local('MyFont4'), url(assets/fonts/icons.svg) format('svg');
+}

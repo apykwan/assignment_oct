@@ -1,0 +1,5 @@
+.hotel-content {
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+    padding: 0 15px;
+}

@@ -1,0 +1,28 @@
+.hotel-header__navbar {
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hotel-header__navbar--item {
+    text-transform: uppercase;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 2rem;
+    opacity: .65;
+    text-align: center;
+}
+
+.hotel-header__navbar--selected {
+    opacity: 1; 
+    border-bottom: 4px solid #301934;
+}
+
+
+.hotel-header__navbar--item:link {
+    text-decoration: none;
+}

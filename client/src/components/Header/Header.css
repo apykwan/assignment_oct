@@ -1,0 +1,8 @@
+.hotel-header {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

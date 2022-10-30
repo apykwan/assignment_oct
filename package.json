@@ -1,0 +1,22 @@
+{
+  "name": "vcom_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple-server/server.js",
+  "scripts": {
+    "install-server": "npm install",
+    "install-client": "npm install --prefix client",
+    "install-all": "npm install && npm run install-client",
+    "server": "nodemon simple-server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "prod": "npm run build --prefix client && node simple-server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "concurrently": "^7.4.0"
+  }
+}
